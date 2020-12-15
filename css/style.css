@@ -1066,6 +1066,28 @@ body {
     overflow: hidden;
   }
 
+  .places-item.rev .places-item__text-btn {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .places-item.rev .places-item__text-btn a {
+    width: 123.28px;
+    height: auto;
+    font-size: 20px;
+    display: inline-block;
+    bottom: 10px;
+    left: 20px;
+    color: #000;
+    padding: 10px;
+    background-color: #3636363a;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
   .monument-body .places-item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1083,6 +1105,24 @@ body {
   .places-item__text-item {
     font-size: 16px;
     line-height: 20px;
+  }
+
+  .places-item.rev .places-item__text-btn {
+    left: auto;
+  }
+
+  .places-item.rev .places-item__text-btn a {
+    left: auto;
+    width: auto;
+    right: 20px;
+  }
+
+  .places-item.rev {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 800px;
   }
 
   .places-item {
