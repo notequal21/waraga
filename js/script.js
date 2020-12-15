@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
         $('.slider-main').slick({
-        arrows:false,
+        arrows:true,
         dots:true,
         autoplay:true,
         autoplaySpeed:5000,
@@ -83,6 +83,7 @@ $(document).ready(function(){
                 breakpoint: 1023,
                 settings: {
                     swipe: true,
+                    arrows: false,
                 }
             }
         ]
@@ -122,7 +123,6 @@ $(document).ready(function(){
         }
     });
 });
-
 
 function testWebP(callback) {
 
